@@ -2,10 +2,9 @@
 
 import sys
 
-n = sys.stdin.readline()
-data = list()
+
+n = int(sys.stdin.readline())
+
 for _ in range(n):
     d = sys.stdin.readline().rstrip()
-    data.append(d)
-
-print(data)
+    print(d)
